@@ -1,0 +1,10 @@
+﻿# PHISHING DETECTION API - COMPLETE ENDPOINT DOCUMENTATION v1.0.0
+# Base URL: http://localhost:8000
+# Accuracy: 88% | F1: 0.83 | Threshold: 0.55
+
+ENDPOINTS:
+  POST  /scan/             - Scan URL or text for phishing
+  GET   /history/          - Get scan history
+  GET   /history/?limit=N  - Get last N scans
+  GET   /metrics/          - Get model metrics
+  GET   /docs              - Swagger UI (interactive browser testing)
